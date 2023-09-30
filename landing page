@@ -1,0 +1,400 @@
+landing page in examle on online floral shop
+
+<!DOCTYPE html>
+	<html lang=en>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-comaptible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Royal And Unique Florals</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+		<link href="style - Copy.css" rel="stylesheet" type="text/css">
+<header>
+	<input type="checkbox" name="" id="toggler">
+	<label for="toggler" class="fas fa-bars"></label>
+
+	<a href="#" class="logo">Floral<span>.</span></a>
+	<nav class="navbar">
+		<a href="#home">Home</a>
+		<a href="#About">About</a>
+		<a href="#product">Products</a>
+</nav>
+	<div class="icons">
+		<a href="#" class="fas fa-heart"></a>
+		<a href="cart.html" class="fas fa-shopping-cart"></a></i>
+		<a href="Login.html" class="fas fa-user"></a>
+</div>		
+</header>
+	<section class="home" id="home">
+	<div class="content">
+		<h6 class="heading">Blooming<br>Boutique</h6>
+		<span>Petal Palace: Royal And Unique Flowers</span>
+		<p>Happiness Is Fresh Flowers in each and every beautiful occasion of life. Every flower is a soul blossoming in nature.Let your every Occasion be beautiful and unique. a promise to give you special and beautiful flowers to make your occasion special, happy and cheerful</p>
+		<p><b>To See Offers Click below On SHOP NOW</b></p>
+		<a href="Shopnow.html" class="btn">Shop Now</a>
+	</div>
+</section>
+	<section class="About" id="About">
+	<h1 class="heading">About Us</h1>
+	<div class="row">
+	<div class="video-container">
+	<video src="pink floral.mp4" loop autoplay muted></video>
+	<h3>Best Florists</h3>
+</div>
+	<div class="content">
+	<h3>Why Choose Us?</h3>
+	<p>Known as Blooming Boutique we inlude every type of flowers available of each and every occasion. That's the most beautiful things we are presenting for you which is our flowers are fresh and you can arrange them the way you want too or you can let us know the way you want. We are known as the best florists in the area. We bring the most delicate. unique, amazing flowers which are needed for your occasion. Will try our best to make your each and every occasion beautiful. Flowers are somethings which makes the home beautiful, it gives amazing vibes</p>
+	<p>We would be glad to be a part of your auspcious occasion by serving your auspicious special day with floral things.</p>
+	<a href="learn.html" class="btn">Learn More</a>
+</div>
+</div>
+</section>
+	<section class="product" id="product">
+
+	<h1 class="heading">Latest Products</h1>
+	<div class="box-container">
+	<div class="box">
+	<span class="discount">-10%</span>
+	<div class="image">
+		<img src="bouquet2.jpeg" alt="" height="300" width="300">	
+		<div class="icons">
+		<a href="#" class="fa fa-heart"></a>
+		<a href="payment form.html" i class="fab fa-amazon-pay">buy<span>now</span></i></a>
+		<a href="#" class="fa fa-share"></a>
+</div>
+</div>
+<div class="content">
+	<h2>Product Code: A-22034</h2>
+	<h3>Pastel Bouquet</h3>
+	<div class="price">₹300-<span>₹1000</span></div>
+	     <input type="number" id="quantity" placeholder="Quantity" required>
+</div>
+</div>
+	<div class="box">
+	<span class="discount">-15%</span>
+	<div class="image">
+		<img src="dark pink bouquet.jpeg" alt="" height="300" width="300">	
+		<div class="icons">
+		<a href="#" class="fa fa-heart"></a>
+		<a href="cart.html" class="cart-btn">add to cart</a>
+		<a href="#" class="fa fa-share"></a>
+</div>
+</div>
+<div class="content">
+	<h2>Product Code: A-22074</h2>
+	<h3>Pastel Bouquet</h3>
+	<div class="price">₹30-<span>₹100</span></div>
+	     <input type="number" id="quantity" placeholder="Quantity" required>
+</div>
+</div>
+</div>
+</div>
+<section class="footer">
+<div class="box-container"> 
+	<div class="box">
+	<h3>Quick Links</h3>
+	<a href="#home">Home</a>
+	<a href="#About">About</a>
+	<a href="#product">Products</a>
+	<a href="#Review">Review</a>
+	<a href="#Contact">Contact</a>
+</div>
+	<div class="box">
+	<h3>Extra Links</h3>
+	<a href="#">My Account</a>
+	<a href="#">My Order</a>
+	<a href="#">My Favourite</a>
+</div>
+<div class="box">
+	<h3>Locations</h3>
+	<a href="#">India</a>
+	<a href="#">UAE</a>
+</div>
+<div class="box">
+	<h3>Contact-Info</h3>
+	<a href="#">+91 123-456-7890</a>
+	<a href="#">BloomingBoutique@gmail.com</a>
+	<a href="#">Pune, Maharashtra:411016 India</a>
+</div>
+</div>
+<div class="credit">Created By <span>Blooming Boutique, Petal Palace: Royal And Unique Flowers</span> // all rights reserved </div>
+</section>
+</body>		
+</html>
+
+css
+
+:root{
+	pink;
+}
+*{
+	margin: 0; padding: 0;
+	box-sizing: border-box;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	outline: none; border: none;
+	text-decoration: none;
+	text-transform: capitalize;
+	transition: .2s linear;
+}
+html{
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+	scroll-padding-top: 6rem;
+	overflow-x: hidden;
+}
+section{
+	padding: 2rem 9%;
+}
+.btn{
+	display: inline-block;
+	margin-top: 1rem;
+	border-radius: 4rem;
+	background:#FFB6C1;
+	color: maroon;
+	padding: 2rem 2.5rem;
+	cursor: pointer;
+	font-size: 1.7rem;
+}
+.btn:hover{
+	background: #E75480;
+}
+header{
+	position: fixed;
+	top:0; left:0; right:0;
+	background: pink;
+	padding: 1.5rem 9%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	z-index: 1000;
+	box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+}
+header .logo{
+	font-size: 3rem;
+	color: maroon;
+	font-weight: bolder;
+}
+header .logo span{
+	color:#E75480 ;
+}
+header .logo span:hover{
+	color: maroon;
+}
+header .navbar a{
+	font-size: 2rem;
+	padding: 0 1.5rem;
+	color: maroon;
+}
+header .navbar a:hover{
+	color: #E75480;
+}
+header .icons a{
+	font-size: 2.5rem;
+	color: maroon;
+	margin-left: 1.5rem;
+}
+header .icons a:hover{
+	color: #E75480;
+}
+header #toggler{
+	display: none;
+}	
+header .fa-bars{
+	font-size:3rem;
+	color: maroon;
+	border-radius:.5rem;
+	padding: .5rem 1.5;
+	cursor: pointer;
+	border: .2rem solid maroon;
+}
+header .fa-bars:hover{
+	color: #E75480;
+}
+.home{
+	display: flex;
+	align-items: center;
+	min-height:100vh;
+	background: url("wallpaper3.jpg");
+	background-size: cover;
+	background-position:center;
+
+}
+.home .content{
+	max-width: 60rem;
+}
+.home .content h6 {
+	font-size: 3.5rem;
+	color: maroon;
+}
+.home .content span{
+	font-size: 2.5rem;
+	color: #E75480;
+	padding: 1rem  0;
+	line-height: 1.5;
+}
+.home .content p{
+	font-size: 1.5rem;
+	color: maroon;
+	padding: 1rem  0;
+	line-height: 1.5;
+}
+.heading{
+	text-align: center;
+	font-size: 4rem;
+	color: maroon;
+	padding: 1rem;
+	margin: 2rem 0;
+	background: pink;
+}
+.heading span{
+	color: maroon;
+}
+.About .row{
+	display: flex;
+	background: pink;
+	align-items: center;
+	gap: 2rem;
+	flex-wrap: wrap;
+	padding: 2rem 0;
+	padding-bottom: 3rem;
+}
+.About .row .video-container{
+	flex: 1 1 40rem;
+	position: relative;
+}
+.About .row .video-container video{
+	width: 100%;
+	border: 1.5rem solid maroon;
+	border-radius: .5rem;
+	box-shadow: 0.5rem 1rem rgba(0,0,0,.1);
+	height: 100%;
+	object-fit: cover;
+}
+.About .row .video-container h3{
+	position: absolute;
+	top: 50%; transform: translateY(-50%);
+	font-size: 3rem;
+	color: light blue;
+	background: pink;
+	width: 100%;
+	padding: 2rem 2rem;
+	text-align: center;
+	mix-blend-mode: screen;
+}
+.About .row .content{
+	flex: 1 1 40rem;
+}
+.About .row .content h3{
+	font-size: 3rem;
+	color: #E75480;
+}
+.About .row .content p{
+	font-size: 1.5rem;
+	color:maroon;
+	padding: .5rem 0;
+	padding-top: 1rem;
+	line-height: 1.5;
+}
+.product .box-container{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 1.5rem;
+}
+.product .box-container .box{
+	flex: 1 1 30rem;
+	box-shadow: 0.5rem 1.5rem solid pink;
+	border-radius: .5rem;
+	border: .1rem solid pink;
+	position: relative;
+}
+.product .box-container .box .discount{
+	position: absolute;
+	top: 1rem; left: 1rem;
+	padding: .7rem 1rem;
+	font-size: 2rem;
+	color: 	#E75480;
+	background: transparent;
+	z-index: 1;
+	border-radius: .5rem;
+}
+.product .box-container .box .image{
+	position: relative;
+	text-align: center;
+	padding-top: 2rem;
+}
+.product .box-container .box .image .img{
+	height: 25rem;
+}
+.product .box-container .box:hover .image img{
+	transform: scale(1.1);
+}
+.product .box-container .box .image .icons{
+	position: absolute;
+	bottom:0; left: 0; right: 0;
+	display: flex;
+}
+.product .box-container .box .image .icons a{
+	height: 5rem;
+	line-height: 5rem;
+	font-size: 2rem;
+	width: 50%;
+	background: #E75480;
+	colour:maroon;
+}
+.product .box-container .box .image .icons .cart-btn{
+	border-left: .1rem solid pink;
+	border-right: .1rem solid pink;
+	width: 100%;
+}
+.product .box-container .box .image .icons a:hover{
+	background: pink;
+}
+.product .box-container .box .content{
+	padding: 2rem;
+	text-align: center;
+}
+.product .box-container .box .content h3{
+	font-size: 2.5rem;
+	color: maroon;
+}
+.product .box-container .box .content .price{
+	font-size: 2.5rem;
+	color: #E75480;
+	font-weight: bolder;
+	padding-top: 1rem;
+}
+.footer .box-container{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1.5rem;
+}
+.footer .box-container .box{
+	flex: 1 1 20rem;
+}
+.footer .box-container .box h3{
+	color: maroon;
+	font-size: 1.5rem;
+	padding: 1rem 0;
+}
+.footer .box-container .box a{
+	display: block;
+	color: #E75480;
+	font-size: 1.5rem;
+	padding: 1rem 0;
+}
+.footer .box-container .box a:hover{
+color: maroon;
+	text-decoration: underline;
+}
+.footer .credit{
+	text-align: center;
+	padding: 1.5rem;
+	margin-top: 1.5rem;
+	padding-top: 2.5rem;
+	font-size: 1.5rem;
+	color:  #E75480;
+	border-top: .1rem solid maroon;
+}
+.footer .span{
+	color: #E75480;
+}
