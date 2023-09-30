@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Read</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="blog-post">
+            <h1>Beautiful Roses for Any Occasion</h1>
+            <p class="date">Posted on October 15, 2023</p>
+            <img src="web.jpg" alt="Red Roses" width='50% height= 50%'>
+            <p>Beautiful image of rose for a new blog. </p><p> A rose flower gives joy happiness and peace</p><p>It is the beauty of nature in the forms of flower which enhances the beauty</p>
+            <a href="Read More">Read More</a>
+        </section>
+        <!-- More blog posts go here -->
+    </main>
+    <footer>
+        <p>&copy; 2023 blog</p>
+    </footer>
+</body>
+</html>
+
+CSS
+
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply basic styling */
+body {
+    font-family: Arial, sans-serif;
+  background-image: url('r.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+}
+
+header {
+    background-color: pink;
+    color: red;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: pink;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post {
+    margin-bottom: 40px;
+}
+
+.blog-post h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.blog-post .date {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.blog-post img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.blog-post p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.blog-post a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: pink;
+    color: red;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: pink;
+    color: red;
+}
