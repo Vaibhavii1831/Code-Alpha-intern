@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Background Color Generator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            transition: background-color 0.5s ease;
+        }
+        
+        button {
+            padding: 10px 20px;
+            margin-top: 20px;
+            background-color: #333;
+            color: white;
+            border: none;
+            cursor: pointer;
+            outline: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Random Background Color Generator</h1>
+        <div>
+            <p>Generated Color: <span id="colorValue">#FFFFFF</span></p>
+            <button id="generateColor">Generate New Color</button>
+        </div>
+    </div>
+
+    <script>
+        // Function to generate a random color in hexadecimal format
+        function getRandomColor() {
+            const letters = '0123456789ABCDEF';
+            let color = '#';
+            for (let i = 0; i < 6; i++) {
+                color += letters[Math.floor(Math.random() * 16)];
+            }
+            return color;
+        }
+
+        // Function to update the background color and display the color value
+        function updateBackgroundColor() {
+            const randomColor = getRandomColor();
+            document.body.style.backgroundColor = randomColor;
+            document.getElementById('colorValue').textContent = randomColor;
+        }
+
+        // Add event listener to the "Generate New Color" button
+        document.getElementById('generateColor').addEventListener('click', updateBackgroundColor);
+
+        // Initial background color generation
+        updateBackgroundColor();
+    </script>
+</body>
+</html>
